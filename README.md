@@ -1,9 +1,11 @@
 **Compilation**
+
 Use `make` in the project's root directory. This generates both `dataServer` and `remoteClient`.
 
 **Running** 
 
 Data Server:
+
 `./dataServer -p {portNumber} -s {threadCount} -q {queueLength} -b {bufferLength}`
 
 Remote Client:
